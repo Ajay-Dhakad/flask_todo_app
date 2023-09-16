@@ -20,12 +20,15 @@ pip install Flask Flask-SQLAlchemy
 ## Usage
 
 1.**Clone this repository to your local machine:**
-    git clone https://github.com/Ajay-Dhakad/flask_todo_app.git
+
+        git clone https://github.com/Ajay-Dhakad/flask_todo_app.git
 
 2.**Navigate to the project directory in your terminal:** 
-    cd flask-todo-app
+
+        cd flask-todo-app
 
 3.**Run the Flask application:**
-    python app.py
 
-    This will start the development server, and you should see output indicating that the server is running.
+        python app.py
+
+        This will start the development server, and you should see output indicating that the server is running.
