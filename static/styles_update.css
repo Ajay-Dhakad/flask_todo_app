@@ -1,0 +1,148 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f2f2;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: none;
+    box-shadow: 10px 10px 10px 10px rgb(90, 88, 88);
+    border-radius: 50px;
+    background-color:rgb(46, 105, 116);
+    color: white;
+    
+}   
+
+
+
+
+
+.card-body {
+    padding: 70px 140px;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+form {
+    text-align: center;
+}
+
+.form-outline {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-label {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    font-size: 16px;
+    color: #999;
+    transition: all 0.2s ease-in-out;
+}
+
+.form-control:focus + .form-label {
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    color: #007BFF;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-warning {
+    background-color: #FFC107;
+    color: #333;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color:white;
+    color: black;
+    border-radius: 8px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+    text-align: left;
+}
+
+th {
+    background-color:transparent;
+}
+
+td {
+    vertical-align: middle;
+    border-bottom: 1px solid #000000;
+
+}
+
+.btn-danger {
+    background-color: #DC3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #792830;
+}
+
+.btn-success {
+    background-color: #28A745;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #205a2e;
+}
+
